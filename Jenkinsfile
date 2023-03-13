@@ -12,3 +12,17 @@ pipeline {
 		}
 	}
 }
+	post {
+		always {
+			echo 'I Will Always Say Hello!'
+		}
+		success {
+			echo 'Alhamdulillah Sukses bro!'
+		}
+		failure {
+			echo 'It's Ok To Be Fail, We Try Again!'
+		}
+		cleanup {
+			echo 'Don't care if its's success or fail'
+		}
+	}
