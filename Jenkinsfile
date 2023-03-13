@@ -20,9 +20,9 @@ pipeline {
 			echo 'Alhamdulillah Sukses bro!'
 		}
 		failure {
-			echo 'It's Ok To Be Fail, We Try Again!'
+			echo 'Its Ok To Be Fail, We Try Again!'
 		}
 		cleanup {
-			echo 'Don't care if its's success or fail'
+			echo "Don't care if its's success or fail"
 		}
 	}
