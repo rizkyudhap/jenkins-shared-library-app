@@ -7,17 +7,23 @@ pipeline {
 	stages {
 		stage ("Build") {
 			steps {
-				echo "Ini adalah Build Stage"
+				echo "Ini adalah Build Stage 1"
+				echo "Ini adalah Build Stage 2"
+				echo "Ini adalah Build Stage 3"
 			}
 		}
 		stage ("Test") {
 			steps {
-				echo "Ini adalah Test Stage"
+				echo "Ini adalah Test Stage 1"
+				echo "Ini adalah Test Stage 2"
+				echo "Ini adalah Test Stage 3"
 			}
 		}
 		stage ("Deploy") {
 			steps {
-				echo "Ini adalah Deploy Stage"
+				echo "Ini adalah Deploy Stage 1"
+				echo "Ini adalah Deploy Stage 2"
+				echo "Ini adalah Deploy Stage 3"
 			}
 		}
 	}
