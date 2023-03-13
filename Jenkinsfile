@@ -10,6 +10,7 @@ pipeline {
 				echo "Ini adalah Build Stage 1"
 				echo "Ini adalah Build Stage 2"
 				echo "Ini adalah Build Stage 3"
+				sleep(2)
 			}
 		}
 		stage ("Test") {
@@ -17,6 +18,7 @@ pipeline {
 				echo "Ini adalah Test Stage 1"
 				echo "Ini adalah Test Stage 2"
 				echo "Ini adalah Test Stage 3"
+				sleep(2)
 			}
 		}
 		stage ("Deploy") {
@@ -24,6 +26,7 @@ pipeline {
 				echo "Ini adalah Deploy Stage 1"
 				echo "Ini adalah Deploy Stage 2"
 				echo "Ini adalah Deploy Stage 3"
+				sleep(2)
 			}
 		}
 	}
