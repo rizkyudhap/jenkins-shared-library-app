@@ -5,9 +5,19 @@ pipeline {
          }
         } 
 	stages {
-		stage ("Hello") {
+		stage ("Build") {
 			steps {
-				echo ("Hello Rizky Pratama!")
+				echo "Ini adalah Build Stage"
+			}
+		}
+		stage ("Test") {
+			steps {
+				echo "Ini adalah Test Stage"
+			}
+		}
+		stage ("Deploy") {
+			steps {
+				echo "Ini adalah Deploy Stage"
 			}
 		}
 	}
