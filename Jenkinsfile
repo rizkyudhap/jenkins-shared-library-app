@@ -11,7 +11,6 @@ pipeline {
 			}
 		}
 	}
-}
 	post {
 		always {
 			echo 'I Will Always Say Hello!'
@@ -26,3 +25,4 @@ pipeline {
 			echo "Don't care if its's success or fail"
 		}
 	}
+}
