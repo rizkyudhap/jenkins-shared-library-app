@@ -19,7 +19,7 @@ pipeline {
 		stage ("Test") {
 			steps {
 				script {
-					def data [
+					def data = [
 						"firstName" : "Rizky"
 						"lastName" : "Pratama"
 					]
