@@ -20,7 +20,7 @@ pipeline {
 			steps {
 				script {
 					def data = [
-						"firstName" : "Rizky"
+						"firstName" : "Rizky",
 						"lastName" : "Pratama"
 					]
 					writeJSON(file: "data.json", json: data)
