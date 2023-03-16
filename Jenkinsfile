@@ -4,6 +4,11 @@ pipeline {
 	  label "linux && java11"
          }
         } 
+	environment {
+	AUTHOR = "Rizky Yudha Pratama"
+	EMAIL = "rizkyudhap@gmail.com"
+	}
+
 	options {
 		disableConcurrentBuilds()
 		timeout(time: 10, unit: 'SECONDS')
@@ -14,6 +19,8 @@ pipeline {
 				echo "Start Job : ${env.JOB_NAME}"
 				echo "Start Build : ${env.BUILD_NUMBER}"
 				echo "Branch Name : ${env.BRANCH_NAME}"
+				echo "Author : ${AUTHOR}"
+				echo "Email : ${EMAIL}"
 			}
 		}
 		stage ("Build") {
