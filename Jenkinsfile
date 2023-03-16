@@ -4,6 +4,10 @@ pipeline {
 	  label "linux && java11"
          }
         } 
+	options {
+		disableConcurrentBuilds()
+		timeout(time: 10, unit: 'SECONDS')
+	}
 	stages {
 		stage ("Prepare") {
 			steps {
