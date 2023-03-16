@@ -1,5 +1,5 @@
-# Belajar Spring Dasar
+# Belajar Jenkins Pipeline
 
-by Programmer Zaman Now
+by Rizky Yudha Pratama
 
-# Trigger jenkins
+Spring Code by Programmer Zaman Now
