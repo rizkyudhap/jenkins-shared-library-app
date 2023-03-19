@@ -13,8 +13,6 @@ pipeline {
                 }
             }
         }
-    }
-    stages {
         stage ("Hello World") {
             steps {
                 script {
